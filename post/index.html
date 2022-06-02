@@ -48,6 +48,20 @@
 			</a>
 		</li>
 		<li class="menu__item">
+			<a class="menu__link" href="/">
+				
+				<span class="menu__text">Home</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/category">
+				
+				<span class="menu__text">Category</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
 			<a class="menu__link" href="/mywork/">
 				
 				<span class="menu__text">My Work</span>
@@ -73,6 +87,43 @@
 	<header class="main__header">
 		<h1 class="main__title">Posts</h1>
 	</header><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/post/defining-measures-in-dax-studio/" rel="bookmark">
+			Defining Measures in DAX Studio
+			</a>
+		</h2>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-03-20T00:00:00Z">March 20, 2022</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/tools/" rel="category">Tools</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		After a period of not defining measures in DAX Studio, I seem to make the same two mistakes.
+The first error occurs when I try to run the following code to define a measure in a query:
+DEFINE MEASURE [UnitPrice] = SUM(&#39;Sales&#39;[Unit Price])EVALUATECALCULATE([UnitPrice]) This generates the following error: The syntax for &lsquo;=&rsquo; is incorrect. .
+The issue lies in not including the table name before the measure name. This esentially indicates where the measure &ldquo;lives&rdquo; in the model and is needed for the full definition of the measure.
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/post/my-first-post/" rel="bookmark">
+			My First Post
+			</a>
+		</h2>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-03-17T00:00:00Z">March 17, 2022</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/languages/" rel="category">Languages</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Intro to defining measures with syntax highlighting
+	</div>
+</article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
@@ -131,6 +182,8 @@
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/defining-measures-in-dax-studio/">Defining Measures in DAX Studio</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/my-first-post/">My First Post</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/website-hugo-blog-git/">Using Hugo and GitHub Pages for my blog</a></li>
 		</ul>
 	</div>
@@ -140,6 +193,10 @@
 	<div class="widget__content">
 		<ul class="widget__list">
 			<li class="widget__item">
+				<a class="widget__link" href="/categories/languages/">Languages</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/tools/">Tools</a></li>
+			<li class="widget__item">
 				<a class="widget__link" href="/categories/website/">Website</a></li>
 		</ul>
 	</div>
@@ -147,6 +204,8 @@
 <div class="widget-taglist widget">
 	<h4 class="widget__title">Tags</h4>
 	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/dax/" title="dax">dax (2)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/daxstudio/" title="daxstudio">daxstudio (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/git/" title="Git">Git (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/hugo/" title="Hugo">Hugo (1)</a>
 	</div>

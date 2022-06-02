@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>My Work - The DAX Shepherd</title>
+	<title>Languages - The DAX Shepherd</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +14,7 @@
 
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="/css/prism.css">
+	<link rel="alternate" type="application/rss+xml" href="/categories/languages/index.xml" title="The DAX Shepherd">
 
 	<link rel="shortcut icon" href="/favicon.ico">
 		
@@ -60,7 +61,7 @@
 				
 			</a>
 		</li>
-		<li class="menu__item menu__item--active">
+		<li class="menu__item">
 			<a class="menu__link" href="/mywork/">
 				
 				<span class="menu__text">My Work</span>
@@ -82,32 +83,33 @@
 		<div class="wrapper flex">
 			<div class="primary">
 			
-<main class="main" role="main">
-	<article class="post">
-		<header class="post__header">
-			<h1 class="post__title">My Work</h1>
-			
-		</header>
-		<div class="content post__content clearfix">
-			<p>I work in a small IT shop. What this means is that I have to be self motivated to learn new skills and to apply them to projects I am working on. I had to have faith that if I built out data models using Microsoft BI that the business would see the value and benefit. A build and and they will come scenario. Lastly it means that I have to wear many hats from gathering requirements from the business to developing the best data model, to creating measures, and lastly to how the data will be presented on the canvas (whether Excel or Power BI). This also means understanding the source systems like Netsuite or a custom payroll application and how the business is using them to store data.</p>
-<p>I use SQL Server Integration Services to pull the data from the source systems (Payroll, Netsuite ERP, JD Edwards), store it in SQL Server 2019, build the data model using Tabular Editor with Model Auto Build (C# scripting) and deploy it to SQL Server Analysis Services 2019. I try and follow best practices and only pull the columns needed and use Views to pull the data from - Model Auto build helps enforce some best practices too. I use DAX Studio for building queries, creating measures in DAX, and performance tuning. Currently, I am using both Tabular Editor 2 (3 does not have command line support yet) and 3.</p>
-<p>For the main model, I am using Model Auto Build which uses an Excel file with the metadata in it to build the model. Since it is essentially a C# script I can make changes to the code if needed and also raise an issue with the author if any bugs are found. Because there is no GUI is requires me to visualize the model and to draw out how it should look (yes, I use giant sketch pads still. It also emphasizes only pulling in the data that is needed to meet the requirements. Then I use Powershell scripts to deploy and refresh the model. With different branches on Azure DevOps, I can deploy to dev, test, and production.</p>
-<p>We have Excel and Power BI as the clients connecting to the model.</p>
-<p>Speaking of Excel, I am a big fan of Power Query and love teaching people how to use it.</p>
-<p>We currently use TFS but I am transitioning some of my projects to git using GitHub and Azure DevOps.</p>
-<p>On my list of what I am currently learning or need to get up to speed on is C# (mainly for automating the data model creation in Tabular Editor), Dataflows, and Power BI Premium.</p>
-<p>On a daily basis, I also am using Windows Terminal and Visual Studio Code (in fact that is what I am writing my markdown with).</p>
-<p>My first love is SQL which I still interact with daily but I love working with the Tabular data model. I love the satisfaction that comes from building a model from many different data sources and building the DAX measures that extract the information the business needs. Especially knowing that the model replaces processes that manually would have taken hours if not days to reach the same insight.</p>
-
-		</div>
-	</article>
+<main class="main list" role="main">
+	<header class="main__header">
+		<h1 class="main__title">Languages</h1>
+	</header><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/post/my-first-post/" rel="bookmark">
+			My First Post
+			</a>
+		</h2>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-03-17T00:00:00Z">March 17, 2022</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/languages/" rel="category">Languages</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Intro to defining measures with syntax highlighting
+	</div>
+</article>
 </main>
 
 
-
-
 			</div>
-			<aside class="sidebar">
+			
+<aside class="sidebar">
 <div class="widget-social widget">
 	<h4 class="widget-social__title widget__title">Social</h4>
 	<div class="widget-social__content widget__content">
