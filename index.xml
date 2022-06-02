@@ -13,10 +13,7 @@
       <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://thedaxshepherd.com/post/defining-measures-in-dax-studio/</guid>
-      <description>After a period of not defining measures in DAX Studio, I seem to make the same two mistakes.
-The first error occurs when I try to run the following code to define a measure in a query:
-DEFINE MEASURE [UnitPrice] = SUM(&amp;#39;Sales&amp;#39;[Unit Price])EVALUATECALCULATE([UnitPrice]) This generates the following error: The syntax for &amp;lsquo;=&amp;rsquo; is incorrect. .
-The issue lies in not including the table name before the measure name. This esentially indicates where the measure &amp;ldquo;lives&amp;rdquo; in the model and is needed for the full definition of the measure.</description>
+      <description>Some common issues that I run into when defining measures in DAX Studio.</description>
     </item>
     
     <item>
@@ -25,7 +22,7 @@ The issue lies in not including the table name before the measure name. This ese
       <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://thedaxshepherd.com/post/my-first-post/</guid>
-      <description>Intro to defining measures with syntax highlighting</description>
+      <description>Examples of syntax highlighting.</description>
     </item>
     
     <item>
@@ -34,7 +31,7 @@ The issue lies in not including the table name before the measure name. This ese
       <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://thedaxshepherd.com/post/website-hugo-blog-git/</guid>
-      <description>I would like to say that this blog has been relaunched on GitHub using Hugo. If something never launched in the first place I am not sure it can be relaunched. I initially had a WordPress blog on SiteGround. It never made it out of test. I learned a lot about deploying WordPress and the different plugins. It did come in handy when my work started using WordPress for the company site.</description>
+      <description>My Experience with using Hugo and deploying to Github Pages.</description>
     </item>
     
     <item>

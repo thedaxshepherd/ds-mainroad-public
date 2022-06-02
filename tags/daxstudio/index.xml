@@ -13,10 +13,7 @@
       <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://thedaxshepherd.com/post/defining-measures-in-dax-studio/</guid>
-      <description>After a period of not defining measures in DAX Studio, I seem to make the same two mistakes.
-The first error occurs when I try to run the following code to define a measure in a query:
-DEFINE MEASURE [UnitPrice] = SUM(&amp;#39;Sales&amp;#39;[Unit Price])EVALUATECALCULATE([UnitPrice]) This generates the following error: The syntax for &amp;lsquo;=&amp;rsquo; is incorrect. .
-The issue lies in not including the table name before the measure name. This esentially indicates where the measure &amp;ldquo;lives&amp;rdquo; in the model and is needed for the full definition of the measure.</description>
+      <description>Some common issues that I run into when defining measures in DAX Studio.</description>
     </item>
     
   </channel>
