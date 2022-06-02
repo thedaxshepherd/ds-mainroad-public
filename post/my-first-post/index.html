@@ -79,6 +79,7 @@
 	<article class="post">
 		<header class="post__header">
 			<h1 class="post__title">My First Post</h1>
+			<p class="post__lead">Focused on syntax highlighting</p>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-03-17T00:00:00Z">March 17, 2022</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/languages/" rel="category">Languages</a>
@@ -86,51 +87,39 @@
 </div></div>
 		</header>
 		<div class="content post__content clearfix">
-			<p>HTML:
-<!-- raw HTML omitted --><!-- raw HTML omitted -->EVALUATE<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->CALCULATE<!-- raw HTML omitted --><!-- raw HTML omitted --> (<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->    <!-- raw HTML omitted -->[SALES]<!-- raw HTML omitted --><!-- raw HTML omitted -->)<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h2 id="code-blocks">Code Blocks</h2>
-<h4 id="code-block-with-backticks">Code block with backticks</h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!doctype html&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">head</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;utf-8&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">head</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">body</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">p</span>&gt;Test&lt;/<span style="color:#f92672">p</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">body</span>&gt;
-</span></span><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- this line is extraneous 2Error from server (Forbidden): deployments.apps is forbidden: User &#34;chiptest&#34; cannot create resource &#34;deployments&#34; in API group &#34;apps&#34; in the namespace &#34;default&#34; --&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt;
-</span></span></code></pre></div><h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces</h4>
-<pre><code>&lt;!doctype html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;title&gt;Example HTML5 Document&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;p&gt;Test&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
-<h4 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode</h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!doctype html&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">head</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;utf-8&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">head</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">body</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">p</span>&gt;Test&lt;/<span style="color:#f92672">p</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">body</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt;</span></span></code></pre></div>
-
+			<h2 id="code-blocks">Code Blocks</h2>
+<h4 id="powershell-example">Powershell Example</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#75715e">## Defines three registry key paths in an array</span>
+</span></span><span style="display:flex;"><span>$tls10 = <span style="color:#e6db74">&#39;HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server&#39;</span>, <span style="color:#e6db74">&#39;HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Checks to see if all of the registry keys in the array exists</span>
+</span></span><span style="display:flex;"><span>$tls10check = ($tls10 | Test-Path) <span style="color:#f92672">-notcontains</span> $false
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## If all of the registry keys exist</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> ($tls10check <span style="color:#f92672">-eq</span> $True){
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">## Updates four different DWORD registry values to either 0 or 1</span>
+</span></span><span style="display:flex;"><span>	Set-ItemProperty -Path <span style="color:#e6db74">&#39;HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server&#39;</span> -name <span style="color:#e6db74">&#39;Enabled&#39;</span> -value <span style="color:#e6db74">&#39;0&#39;</span> -Type <span style="color:#e6db74">&#39;DWORD&#39;</span>
+</span></span><span style="display:flex;"><span>	Set-ItemProperty -Path <span style="color:#e6db74">&#39;HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server&#39;</span> -name <span style="color:#e6db74">&#39;DisabledByDefault&#39;</span> -value <span style="color:#e6db74">&#39;1&#39;</span> -Type <span style="color:#e6db74">&#39;DWORD&#39;</span>
+</span></span><span style="display:flex;"><span>	Set-ItemProperty -Path <span style="color:#e6db74">&#39;HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client&#39;</span> -name <span style="color:#e6db74">&#39;Enabled&#39;</span> -value <span style="color:#e6db74">&#39;0&#39;</span> -Type <span style="color:#e6db74">&#39;DWORD&#39;</span>
+</span></span><span style="display:flex;"><span>	Set-ItemProperty -Path <span style="color:#e6db74">&#39;HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client&#39;</span> -name <span style="color:#e6db74">&#39;DisabledByDefault&#39;</span> -value <span style="color:#e6db74">&#39;1&#39;</span> -Type <span style="color:#e6db74">&#39;DWORD&#39;</span>
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> { <span style="color:#75715e">## If at least one of the registry keys do not exist</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">## Creates the missing registry keys skipping the confirmation (Force)</span>
+</span></span><span style="display:flex;"><span>	New-Item <span style="color:#e6db74">&#39;HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server&#39;</span> -Force
+</span></span><span style="display:flex;"><span>	New-Item <span style="color:#e6db74">&#39;HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client&#39;</span> -Force
+</span></span><span style="display:flex;"><span>	
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">## Creates four different DWORD registry values setting the value to either 0 or 1</span>
+</span></span><span style="display:flex;"><span>	New-ItemProperty -Path <span style="color:#e6db74">&#39;HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server&#39;</span> -name <span style="color:#e6db74">&#39;Enabled&#39;</span> -value <span style="color:#e6db74">&#39;0&#39;</span> -Type <span style="color:#e6db74">&#39;DWORD&#39;</span>
+</span></span><span style="display:flex;"><span>	New-ItemProperty -Path <span style="color:#e6db74">&#39;HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server&#39;</span> -name <span style="color:#e6db74">&#39;DisabledByDefault&#39;</span> -value <span style="color:#e6db74">&#39;1&#39;</span> -Type <span style="color:#e6db74">&#39;DWORD&#39;</span>
+</span></span><span style="display:flex;"><span>	New-ItemProperty -Path <span style="color:#e6db74">&#39;HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client&#39;</span> -name <span style="color:#e6db74">&#39;Enabled&#39;</span> -value <span style="color:#e6db74">&#39;0&#39;</span> -Type <span style="color:#e6db74">&#39;DWORD&#39;</span>
+</span></span><span style="display:flex;"><span>	New-ItemProperty -Path <span style="color:#e6db74">&#39;HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client&#39;</span> -name <span style="color:#e6db74">&#39;DisabledByDefault&#39;</span> -value <span style="color:#e6db74">&#39;1&#39;</span> -Type <span style="color:#e6db74">&#39;DWORD&#39;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="c-example">C# Example</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> names = <span style="color:#66d9ef">new</span> List&lt;<span style="color:#66d9ef">string</span>&gt;() { <span style="color:#e6db74">&#34;John&#34;</span>, <span style="color:#e6db74">&#34;Tom&#34;</span>, <span style="color:#e6db74">&#34;Peter&#34;</span> };
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">foreach</span> (<span style="color:#66d9ef">string</span> name <span style="color:#66d9ef">in</span> names)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    Console.WriteLine(name);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
 		</div>
 		<footer class="post__footer">
 			
@@ -158,20 +147,6 @@
 	</div>
 </div>
 
-<nav class="pager flex">
-	<div class="pager__item pager__item--prev">
-		<a class="pager__link" href="/post/website-hugo-blog-git/" rel="prev">
-			<span class="pager__subtitle">«&thinsp;Previous</span>
-			<p class="pager__title">Using Hugo and GitHub Pages for my blog</p>
-		</a>
-	</div>
-	<div class="pager__item pager__item--next">
-		<a class="pager__link" href="/post/defining-measures-in-dax-studio/" rel="next">
-			<span class="pager__subtitle">Next&thinsp;»</span>
-			<p class="pager__title">Defining Measures in DAX Studio</p>
-		</a>
-	</div>
-</nav>
 
 <section class="comments">
 	<script src="https://utteranc.es/client.js"
@@ -186,71 +161,7 @@
 
 
 			</div>
-			<aside class="sidebar">
-<div class="widget-social widget">
-	<h4 class="widget-social__title widget__title">Social</h4>
-	<div class="widget-social__content widget__content">
-		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="Twitter" rel="noopener noreferrer" href="https://twitter.com/SQL_JAR" target="_blank">
-				<svg class="widget-social__link-icon icon icon-twitter" width="24" height="24" viewBox="0 0 384 312"><path d="m384 36.9c-14.1 6.3-29.3 10.5-45.2 12.4 16.3-9.7 28.8-25.2 34.6-43.6-15.2 9-32.1 15.6-50 19.1-14.4-15.2-34.9-24.8-57.5-24.8-43.5 0-78.8 35.3-78.8 78.8 0 6.2.7 12.2 2 17.9-65.5-3.3-123.5-34.6-162.4-82.3-6.7 11.6-10.6 25.2-10.6 39.6 0 27.3 13.9 51.4 35 65.6-12.9-.4-25.1-4-35.7-9.9v1c0 38.2 27.2 70 63.2 77.2-6.6 1.8-13.6 2.8-20.8 2.8-5.1 0-10-.5-14.8-1.4 10 31.3 39.1 54.1 73.6 54.7-27 21.1-60.9 33.7-97.8 33.7-6.4 0-12.6-.4-18.8-1.1 34.9 22.4 76.3 35.4 120.8 35.4 144.9 0 224.1-120 224.1-224.1 0-3.4-.1-6.8-.2-10.2 15.4-11.1 28.7-25 39.3-40.8z"/></svg>
-				<span>Twitter</span>
-			</a>
-		</div>
-		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="LinkedIn" rel="noopener noreferrer" href="https://linkedin.com/in/jason-r-sql-jar" target="_blank">
-				<svg class="widget-social__link-icon icon icon-linkedin" width="24" height="24" viewBox="0 0 352 352"><path d="M0,40v272c0,21.9,18.1,40,40,40h272c21.9,0,40-18.1,40-40V40c0-21.9-18.1-40-40-40H40C18.1,0,0,18.1,0,40z M312,32 c4.6,0,8,3.4,8,8v272c0,4.6-3.4,8-8,8H40c-4.6,0-8-3.4-8-8V40c0-4.6,3.4-8,8-8H312z M59.5,87c0,15.2,12.3,27.5,27.5,27.5 c15.2,0,27.5-12.3,27.5-27.5c0-15.2-12.3-27.5-27.5-27.5C71.8,59.5,59.5,71.8,59.5,87z M187,157h-1v-21h-45v152h47v-75 c0-19.8,3.9-39,28.5-39c24.2,0,24.5,22.4,24.5,40v74h47v-83.5c0-40.9-8.7-72-56.5-72C208.5,132.5,193.3,145.1,187,157z M64,288h47.5 V136H64V288z"/></svg>
-				<span>LinkedIn</span>
-			</a>
-		</div>
-		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="GitHub" rel="noopener noreferrer" href="https://github.com/thedaxshepherd" target="_blank">
-				<svg class="widget-social__link-icon icon icon-github" width="24" height="24" viewBox="0 0 384 374"><path d="m192 0c-106.1 0-192 85.8-192 191.7 0 84.7 55 156.6 131.3 181.9 9.6 1.8 13.1-4.2 13.1-9.2 0-4.6-.2-16.6-.3-32.6-53.4 11.6-64.7-25.7-64.7-25.7-8.7-22.1-21.3-28-21.3-28-17.4-11.9 1.3-11.6 1.3-11.6 19.3 1.4 29.4 19.8 29.4 19.8 17.1 29.3 44.9 20.8 55.9 15.9 1.7-12.4 6.7-20.8 12.2-25.6-42.6-4.8-87.5-21.3-87.5-94.8 0-20.9 7.5-38 19.8-51.4-2-4.9-8.6-24.3 1.9-50.7 0 0 16.1-5.2 52.8 19.7 15.3-4.2 31.7-6.4 48.1-6.5 16.3.1 32.7 2.2 48.1 6.5 36.7-24.8 52.8-19.7 52.8-19.7 10.5 26.4 3.9 45.9 1.9 50.7 12.3 13.4 19.7 30.5 19.7 51.4 0 73.7-44.9 89.9-87.7 94.6 6.9 5.9 13 17.6 13 35.5 0 25.6-.2 46.3-.2 52.6 0 5.1 3.5 11.1 13.2 9.2 76.2-25.5 131.2-97.3 131.2-182 0-105.9-86-191.7-192-191.7z"/></svg>
-				<span>GitHub</span>
-			</a>
-		</div>
-		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="Email" href="mailto:thedaxshepherd@gmail.com">
-				<svg class="widget-social__link-icon icon icon-mail" width="24" height="24" viewBox="0 0 416 288"><path d="m0 16v256 16h16 384 16v-16-256-16h-16-384-16zm347 16-139 92.5-139-92.5zm-148 125.5 9 5.5 9-5.5 167-111.5v210h-352v-210z"/></svg>
-				<span>thedaxshepherd@gmail.com</span>
-			</a>
-		</div>
-
-		
-	</div>
-</div>
-<div class="widget-recent widget">
-	<h4 class="widget__title">Recent Posts</h4>
-	<div class="widget__content">
-		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/post/defining-measures-in-dax-studio/">Defining Measures in DAX Studio</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/my-first-post/">My First Post</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/website-hugo-blog-git/">Using Hugo and GitHub Pages for my blog</a></li>
-		</ul>
-	</div>
-</div>
-<div class="widget-categories widget">
-	<h4 class="widget__title">Categories</h4>
-	<div class="widget__content">
-		<ul class="widget__list">
-			<li class="widget__item">
-				<a class="widget__link" href="/categories/languages/">Languages</a></li>
-			<li class="widget__item">
-				<a class="widget__link" href="/categories/tools/">Tools</a></li>
-			<li class="widget__item">
-				<a class="widget__link" href="/categories/website/">Website</a></li>
-		</ul>
-	</div>
-</div>
-<div class="widget-taglist widget">
-	<h4 class="widget__title">Tags</h4>
-	<div class="widget__content">
-		<a class="widget-taglist__link widget__link btn" href="/tags/dax/" title="dax">dax (2)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/daxstudio/" title="daxstudio">daxstudio (1)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/git/" title="Git">Git (1)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/hugo/" title="Hugo">Hugo (1)</a>
-	</div>
-</div>
-</aside>
+			
 		</div>
 		<footer class="footer">
 	<div class="container footer__container flex">
